@@ -1,0 +1,24 @@
+# Carpetas que no se publican en este repositorio.
+/tests/
+/docs/
+
+# Archivos locales y temporales.
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Auxiliares de LaTeX; se conservan main.pdf y article/figures/*.pdf.
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+out/
